@@ -14,7 +14,7 @@ public class IntroToGenerics {
 		String s = "taco";
 		//Here we are calling calcStuff and passing in a String
 		i.calcStuff(s, 5);
-		
+				
 		Random r = new Random();
 		//Here we are calling calcStuff and passing in a Random object
 		i.calcStuff(r, 6);

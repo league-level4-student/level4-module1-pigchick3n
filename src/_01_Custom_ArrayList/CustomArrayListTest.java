@@ -11,7 +11,7 @@ public class CustomArrayListTest {
 	public void testAddAndGet() {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		list.add(0);
-		list.add(1);
+		list.add(1); 
 		list.add(206);
 	
 		if(list.get(0) != 0) fail("list.get(0) returning improper value.");
