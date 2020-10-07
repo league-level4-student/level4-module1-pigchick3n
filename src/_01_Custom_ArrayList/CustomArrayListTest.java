@@ -47,7 +47,7 @@ public class CustomArrayListTest {
 		
 		if(list.get(0) != 'D') fail("list.get(0) returning improper value.");
 		if(list.get(1) != 'I') fail("list.get(1) returning improper value.");
-		if(list.get(2) != 'E') fail("list.get(2) returning improper value.");
+		if(list.get(2) != 'E')	 fail("list.get(2) returning improper value.");
 		if(list.get(3) != 'G') fail("list.get(3) returning improper value.");
 		if(list.get(4) != 'O') fail("list.get(4) returning improper value.");
 	}
